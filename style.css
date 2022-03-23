@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+   }  
+
+.cabeca{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 50px;
+}
+
+.formulario{
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.form{
+    padding-left: 20px;
+}
+
+.form .blocos {
+    padding-bottom: 20px;
+}
+.form .blocos label{
+    display: block;
+}
+.form .blocos input{
+    padding: 15px;
+    width: 35%;
+}
+
+.botao{
+    padding: 15px;
+    background-color: blue;
+    color: white;
+     
+    cursor: pointer;
+    border-radius: 50px;
+}
